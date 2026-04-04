@@ -2,12 +2,12 @@ import java.util.Scanner;
 
 public class FinancialClass {
 
-    static Market market = new Market(); // New object created.
+    static Market market = new Market(); // New object of the Market class has been created - New object of type Market. 
 
     public static void main(String[] args) {
-        Stock[] stocks = new Stock[] {
-            new Stock("Microsoft", "Buy", 552.35),
-            new Stock("Apple", "Hold", 231.52),
+        Stock[] stocks = new Stock[] { // Object of type Stock.
+            new Stock("Microsoft", "Buy", 552.35), // Object of type Stock
+            new Stock("Apple", "Hold", 231.52), // ...
             new Stock("Nvidia", "Strong Buy", 250.36),
             new Stock("Amazon", "Buy", 185.00),
             new Stock("Meta Platforms", "Strong Buy", 756.13),
